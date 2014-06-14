@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        table{
+            width:365px;
+            height:450px;
+        }
+        #nested {
+            width:90px;
+            height:90px;
+        }
+        td {
+            text-align:center;
+            width:90px;
+            height:90px;
+        }
+        .nestedTD {
+            width:90px;
+            height:45px;
+        }
+        /*BUTTONS*/
+        button {
+            border-radius:5px;
+
+        }
+        #headButton {
+            background: rgba(242,242,242,1);
+            background: -moz-linear-gradient(top, rgba(242,242,242,1) 0%, rgba(242,242,242,1) 36%, rgba(207,207,207,1) 45%, rgba(207,207,207,1) 100%);
+            background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(242,242,242,1)), color-stop(36%, rgba(242,242,242,1)), color-stop(45%, rgba(207,207,207,1)), color-stop(100%, rgba(207,207,207,1)));
+            background: -webkit-linear-gradient(top, rgba(242,242,242,1) 0%, rgba(242,242,242,1) 36%, rgba(207,207,207,1) 45%, rgba(207,207,207,1) 100%);
+            background: -o-linear-gradient(top, rgba(242,242,242,1) 0%, rgba(242,242,242,1) 36%, rgba(207,207,207,1) 45%, rgba(207,207,207,1) 100%);
+            background: -ms-linear-gradient(top, rgba(242,242,242,1) 0%, rgba(242,242,242,1) 36%, rgba(207,207,207,1) 45%, rgba(207,207,207,1) 100%);
+            background: linear-gradient(to bottom, rgba(242,242,242,1) 0%, rgba(242,242,242,1) 36%, rgba(207,207,207,1) 45%, rgba(207,207,207,1) 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f2f2', endColorstr='#cfcfcf', GradientType=0 );
+            width:345px;
+            height:80px;
+            color:blue;
+            font-size:25px;
+        }
+        .colSpan2 {
+            background: rgba(242,242,242,1);
+            background: -moz-linear-gradient(top, rgba(242,242,242,1) 0%, rgba(242,242,242,1) 36%, rgba(207,207,207,1) 45%, rgba(207,207,207,1) 100%);
+            background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(242,242,242,1)), color-stop(36%, rgba(242,242,242,1)), color-stop(45%, rgba(207,207,207,1)), color-stop(100%, rgba(207,207,207,1)));
+            background: -webkit-linear-gradient(top, rgba(242,242,242,1) 0%, rgba(242,242,242,1) 36%, rgba(207,207,207,1) 45%, rgba(207,207,207,1) 100%);
+            background: -o-linear-gradient(top, rgba(242,242,242,1) 0%, rgba(242,242,242,1) 36%, rgba(207,207,207,1) 45%, rgba(207,207,207,1) 100%);
+            background: -ms-linear-gradient(top, rgba(242,242,242,1) 0%, rgba(242,242,242,1) 36%, rgba(207,207,207,1) 45%, rgba(207,207,207,1) 100%);
+            background: linear-gradient(to bottom, rgba(242,242,242,1) 0%, rgba(242,242,242,1) 36%, rgba(207,207,207,1) 45%, rgba(207,207,207,1) 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f2f2', endColorstr='#cfcfcf', GradientType=0 );
+            width:165px;
+            height:80px;
+            color:blue;
+            font-size:18px;
+        }
+        #game {
+            background: rgba(242,242,242,1);
+            background: -moz-linear-gradient(top, rgba(242,242,242,1) 0%, rgba(242,242,242,1) 36%, rgba(207,207,207,1) 45%, rgba(207,207,207,1) 100%);
+            background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(242,242,242,1)), color-stop(36%, rgba(242,242,242,1)), color-stop(45%, rgba(207,207,207,1)), color-stop(100%, rgba(207,207,207,1)));
+            background: -webkit-linear-gradient(top, rgba(242,242,242,1) 0%, rgba(242,242,242,1) 36%, rgba(207,207,207,1) 45%, rgba(207,207,207,1) 100%);
+            background: -o-linear-gradient(top, rgba(242,242,242,1) 0%, rgba(242,242,242,1) 36%, rgba(207,207,207,1) 45%, rgba(207,207,207,1) 100%);
+            background: -ms-linear-gradient(top, rgba(242,242,242,1) 0%, rgba(242,242,242,1) 36%, rgba(207,207,207,1) 45%, rgba(207,207,207,1) 100%);
+            background: linear-gradient(to bottom, rgba(242,242,242,1) 0%, rgba(242,242,242,1) 36%, rgba(207,207,207,1) 45%, rgba(207,207,207,1) 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f2f2', endColorstr='#cfcfcf', GradientType=0 );
+            height:95px;
+            width:165px;
+            color:blue;
+            font-size:18px;
+        }
+        .colSpan1 {
+            background: rgba(242,242,242,1);
+            background: -moz-linear-gradient(top, rgba(242,242,242,1) 0%, rgba(242,242,242,1) 36%, rgba(207,207,207,1) 45%, rgba(207,207,207,1) 100%);
+            background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(242,242,242,1)), color-stop(36%, rgba(242,242,242,1)), color-stop(45%, rgba(207,207,207,1)), color-stop(100%, rgba(207,207,207,1)));
+            background: -webkit-linear-gradient(top, rgba(242,242,242,1) 0%, rgba(242,242,242,1) 36%, rgba(207,207,207,1) 45%, rgba(207,207,207,1) 100%);
+            background: -o-linear-gradient(top, rgba(242,242,242,1) 0%, rgba(242,242,242,1) 36%, rgba(207,207,207,1) 45%, rgba(207,207,207,1) 100%);
+            background: -ms-linear-gradient(top, rgba(242,242,242,1) 0%, rgba(242,242,242,1) 36%, rgba(207,207,207,1) 45%, rgba(207,207,207,1) 100%);
+            background: linear-gradient(to bottom, rgba(242,242,242,1) 0%, rgba(242,242,242,1) 36%, rgba(207,207,207,1) 45%, rgba(207,207,207,1) 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f2f2', endColorstr='#cfcfcf', GradientType=0 );
+            width:80px;
+            height:80px;
+            color:blue;
+            font-size:18px;
+        }
+        #food {
+            background: rgba(242,242,242,1);
+            background: -moz-linear-gradient(top, rgba(242,242,242,1) 0%, rgba(242,242,242,1) 36%, rgba(207,207,207,1) 45%, rgba(207,207,207,1) 100%);
+            background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(242,242,242,1)), color-stop(36%, rgba(242,242,242,1)), color-stop(45%, rgba(207,207,207,1)), color-stop(100%, rgba(207,207,207,1)));
+            background: -webkit-linear-gradient(top, rgba(242,242,242,1) 0%, rgba(242,242,242,1) 36%, rgba(207,207,207,1) 45%, rgba(207,207,207,1) 100%);
+            background: -o-linear-gradient(top, rgba(242,242,242,1) 0%, rgba(242,242,242,1) 36%, rgba(207,207,207,1) 45%, rgba(207,207,207,1) 100%);
+            background: -ms-linear-gradient(top, rgba(242,242,242,1) 0%, rgba(242,242,242,1) 36%, rgba(207,207,207,1) 45%, rgba(207,207,207,1) 100%);
+            background: linear-gradient(to bottom, rgba(242,242,242,1) 0%, rgba(242,242,242,1) 36%, rgba(207,207,207,1) 45%, rgba(207,207,207,1) 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f2f2', endColorstr='#cfcfcf', GradientType=0 );
+            width:75px;
+            height:95px;
+            color:blue;
+            font-size:18px;
+        }
+        #beer {
+            background: rgba(242,242,242,1);
+            background: -moz-linear-gradient(top, rgba(242,242,242,1) 0%, rgba(242,242,242,1) 36%, rgba(207,207,207,1) 45%, rgba(207,207,207,1) 100%);
+            background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(242,242,242,1)), color-stop(36%, rgba(242,242,242,1)), color-stop(45%, rgba(207,207,207,1)), color-stop(100%, rgba(207,207,207,1)));
+            background: -webkit-linear-gradient(top, rgba(242,242,242,1) 0%, rgba(242,242,242,1) 36%, rgba(207,207,207,1) 45%, rgba(207,207,207,1) 100%);
+            background: -o-linear-gradient(top, rgba(242,242,242,1) 0%, rgba(242,242,242,1) 36%, rgba(207,207,207,1) 45%, rgba(207,207,207,1) 100%);
+            background: -ms-linear-gradient(top, rgba(242,242,242,1) 0%, rgba(242,242,242,1) 36%, rgba(207,207,207,1) 45%, rgba(207,207,207,1) 100%);
+            background: linear-gradient(to bottom, rgba(242,242,242,1) 0%, rgba(242,242,242,1) 36%, rgba(207,207,207,1) 45%, rgba(207,207,207,1) 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f2f2', endColorstr='#cfcfcf', GradientType=0 );
+            width:250px;
+            height:80px;
+            color:blue;
+            font-size:18px;
+        }
+        .nestedButtons {
+            background: rgba(242,242,242,1);
+            background: -moz-linear-gradient(top, rgba(242,242,242,1) 0%, rgba(242,242,242,1) 36%, rgba(207,207,207,1) 45%, rgba(207,207,207,1) 100%);
+            background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(242,242,242,1)), color-stop(36%, rgba(242,242,242,1)), color-stop(45%, rgba(207,207,207,1)), color-stop(100%, rgba(207,207,207,1)));
+            background: -webkit-linear-gradient(top, rgba(242,242,242,1) 0%, rgba(242,242,242,1) 36%, rgba(207,207,207,1) 45%, rgba(207,207,207,1) 100%);
+            background: -o-linear-gradient(top, rgba(242,242,242,1) 0%, rgba(242,242,242,1) 36%, rgba(207,207,207,1) 45%, rgba(207,207,207,1) 100%);
+            background: -ms-linear-gradient(top, rgba(242,242,242,1) 0%, rgba(242,242,242,1) 36%, rgba(207,207,207,1) 45%, rgba(207,207,207,1) 100%);
+            background: linear-gradient(to bottom, rgba(242,242,242,1) 0%, rgba(242,242,242,1) 36%, rgba(207,207,207,1) 45%, rgba(207,207,207,1) 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f2f2', endColorstr='#cfcfcf', GradientType=0 );
+            height:37px;
+            width:77px;
+            color:blue;
+            font-size:10px;
+        }
+    </style>
+</head>
+<body>
+<table border="1">
+    <thead>
+    <tr>
+        <th colspan="4"><input type="button" value="SOFTWARE UNIVERSITY" id="headButton"></th>
+    </tr>
+    </thead>
+    <tfoot>
+    <tr>
+        <td colspan="3">
+           <input type="button" value="Beer>>>" id="beer">
+        </td>
+        <td id="WC">
+            <input type="button" value="WC" class="colSpan1">
+        </td>
+    </tr>
+    </tfoot>
+    <tbody>
+    <tr>
+        <td colspan="2" id="first"><input type="button" value="Google" class="colSpan2"></td>
+        <td colspan="2" id="second"><input type="button" value="GitHub" class="colSpan2"></td>
+    </tr>
+    <tr>
+        <td id="third"><input type="button" value="FaceBook" class="colSpan1"></td>
+        <td><input type="button" value="GMail" class="colSpan1"></td>
+        <td id="fifth"><input type="button" value="YouTube" class="colSpan1"></td>
+        <td><input type="button" value="2048" class="colSpan1"></td>
+    </tr>
+    <tr>
+        <td id="fourth"><input type="button" value="Food" id="food"></td>
+        <td colspan="2" id="sixth"><input type="button" value="Game" id="game"></td>
+        <td>
+            <table id="nested">
+                <tr>
+                    <td class="nestedTD"><input type="button" value="Social Life" class="nestedButtons"></td>
+                </tr>
+                <tr>
+                    <td class="nestedTD"><input type="button" value="Sleep" class="nestedButtons"></td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>
