@@ -1,0 +1,105 @@
+* {
+    margin:0;
+    padding:0;
+}
+a {
+    color:white;
+    text-decoration:none;
+}
+/*Table Settings*/
+table {
+    background-color:#234465;
+}
+td {
+    height:25px;
+    width:330px;
+}
+#notifications {
+    text-align:right;
+    width:350px;
+}
+#user {
+    padding-top:10px;
+    width:250px;
+}
+span {
+    position:relative;
+    margin-right:-40px;;
+}
+/*Menu*/
+li {
+    list-style-type:none;
+}
+nav ul li {
+    margin-left:15px;
+    position:relative;
+    display:inline-block;
+    padding:5px;
+    border-radius:5px;
+    z-index:5;
+}
+li ul {
+   display:none;
+}
+nav ul li:first-of-type {
+    margin-left:-20px;
+}
+ul li:hover {
+    background-color:#4ca0db;
+}
+ul li:hover > ul {
+    border-radius:5px;
+    margin-top:5px;
+    border:1px solid #1d3955;
+    width:330px;
+    background-color:#234465;
+    display:block;
+    position:absolute;
+}
+ul li:hover > ul li {
+    border-bottom:1px solid #435f7b;
+    padding:10px;
+    margin:0;
+    display:block;
+}
+ul li:hover > ul li:hover {
+    background-color:#ff9c00;
+    border-radius:0;
+}
+.courseType {
+    color:#4ca0db;
+}
+.courseType:hover {
+    color:white;
+}
+/*Images*/
+img {
+    margin-left:35px;
+    width:200px;
+    height:50px;
+}
+#user-bell {
+    margin-bottom:-10px;
+    width:25px;
+    height:30px;
+}
+#search {
+    margin-left:202px;
+    width:20px;
+    height:20px;
+}
+.arrow {
+    margin-left:-5px;
+    width:12px;
+    height:12px;
+}
+
+/*Search*/
+#text {
+    height:16px;
+    margin-left:50px;
+    position:absolute;
+}
+#user ul {
+    position:absolute;
+}
