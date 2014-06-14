@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Nested Tables</title>
+    <style>
+        img {
+            width:160px;
+            height:160px;
+        }
+        td {
+            padding:10px;
+            font-size:2em;
+        }
+    </style>
+</head>
+<body>
+    <table border="1px">
+        <tr>
+            <td rowspan="2">
+                <a href="https://softuni.bg/" target="blank"><img src="https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-xpa1/t1.0-9/9848_648911328480338_1621677021_n.png"
+                                                   title="Logo" >
+                </a>
+            </td>
+            <td>
+                <table border="1px">
+                    <tr>
+                        <td>Software</td>
+                    </tr>
+                    <tr>
+                        <td>University</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
