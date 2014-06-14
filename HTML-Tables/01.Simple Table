@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>SimpleTable</title>
+    <style>
+        th{
+            text-align:left;
+            font-size:35px;
+            padding-bottom:25px;
+        }
+        .bold{
+            font-weight:bolder;
+        }
+        p {
+            margin:0;
+        }
+        img {
+            width:160px;
+            height:160px;
+        }
+    </style>
+</head>
+<body>
+    <table frame="box">
+        <tr>
+        <th colspan="2">Software University</th>
+        </tr>
+        <tr>
+            <td rowspan="2">
+                <img src="https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-xpa1/t1.0-9/9848_648911328480338_1621677021_n.png"
+                     title="Softuni Logo">
+            </td>
+            <td>
+                <p class="bold">Accessible and high</p>
+                <p class="bold">quality software</p>
+                <p class="bold">education.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>Our mission is to make</p>
+                <p>people we train true</p>
+                <p>professionals in the software</p>
+                <p>industry and support them in</p>
+                <p>finding employment</p>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
