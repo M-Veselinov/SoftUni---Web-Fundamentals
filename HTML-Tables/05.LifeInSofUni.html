@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Life in Softuni</title>
+    <style>
+        * {
+            font-size:20px;
+        }
+        table {
+            position:absolute;
+        }
+        th {
+            font-size:50px;
+            height:90px;
+        }
+        td {
+            padding:0;
+            width:100px;
+            height:70px;
+        }
+        tfoot td {
+            height:90px;
+        }
+        #nested {
+            position:relative;
+            margin:5px;
+        }
+
+        #first {
+            vertical-align:super;
+        }
+        #second {
+            text-align:right;
+            vertical-align:super;
+        }
+        #third {
+            text-align:center;
+            vertical-align:super;
+        }
+        #fourth {
+            vertical-align:bottom;
+            text-align:right;
+        }
+        #fifth {
+            text-align:center;
+            vertical-align:bottom;
+        }
+        #sixth {
+            vertical-align:bottom;
+        }
+        .nestedTD {
+            text-align:center;
+        }
+        #beer {
+            font-weight:bold;
+            text-align:right;
+        }
+        #WC {
+            text-align:left;
+        }
+    </style>
+</head>
+<body>
+    <table border="1">
+        <thead>
+        <tr>
+            <th colspan="4">SoftUni LIFE</th>
+        </tr>
+        </thead>
+        <tfoot>
+        <tr>
+            <td colspan="3" id="beer">
+                Beer >
+            </td>
+            <td id="WC">
+                WC
+            </td>
+        </tr>
+        </tfoot>
+        <tbody>
+        <tr>
+            <td colspan="2" id="first">Google</td>
+            <td colspan="2" id="second">GitHub</td>
+        </tr>
+        <tr>
+            <td id="third">FB</td>
+            <td>GMail</td>
+            <td id="fifth">YouTube</td>
+            <td>2048</td>
+        </tr>
+        <tr>
+            <td id="fourth">Food</td>
+            <td colspan="2" id="sixth">Game</td>
+            <td>
+                <table border="1" id="nested">
+                    <tr>
+                        <td class="nestedTD"><p>Social Life</p></td>
+                    </tr>
+                    <tr>
+                        <td class="nestedTD">Sleep</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</body>
+</html>
