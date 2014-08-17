@@ -1,0 +1,125 @@
+* {
+    color:white;
+    margin:0;
+    padding:0;
+    border-radius:5px;
+}
+#wrapper {
+    background-color:#3b5997;
+    width:600px;
+    height:392px;
+}
+input {
+    color:black;
+    margin:3px;
+    width:90px;
+    height:20px;
+    display:inline-block;
+}
+textarea {
+    resize:none;
+    width:310px;
+    height:45px;
+    color:black;
+}
+label {
+    margin-left:5px;
+}
+#birthday {
+    color:#acb4b3;
+    width:140px;
+    height:20px;
+}
+#female {
+    width:10px;
+    height:10px;
+}
+
+#male {
+    width:10px;
+    height:10px;
+}
+
+#other {
+    width:10px;
+    height:10px;
+}
+#non-important {
+    padding-left:5px;
+    margin-top:10px;
+    position:absolute;
+    width:220px;
+    height:200px;
+    margin-left:10px;
+}
+#important {
+    position:relative;
+    padding-left:5px;
+    float:right;
+    width:320px;
+    height:200px;
+    margin-top:-248px;
+    margin-right:10px;
+}
+#reset {
+    font-weight:bold;
+    background-color:#dddddd;
+    width:230px;
+    height:35px;
+    margin-top:220px;
+    margin-left:10px;
+    color:#446097;
+}
+#submit {
+    font-weight:bold;
+    background-color:#dddddd;
+    width:330px;
+    height:35px;
+    margin-left:260px;
+    position:absolute;
+    margin-top:-37px;
+    color:#446097;
+}
+.short{
+    width:45px;
+    height:20px;
+}
+#color {
+    width:90px;
+    height:20px;
+}
+#aunt {
+    width:90px;
+    height:20px;
+}
+#meter {
+    width:90px;
+    height:20px;
+}
+/* Styles */
+h1 {
+    font-size:4em;
+    text-align:center;
+}
+span {
+    margin-left:2px;
+    font-size:15px;
+}
+h2 {
+    text-align:center;
+}
+h3 {
+    text-align:center;
+}
+legend {
+    text-align:center;
+}
+select {
+    color:#acb4b3;
+}
+option {
+    color:#acb4b3;
+}
+select:first-of-type {
+    margin-left:5px;
+}

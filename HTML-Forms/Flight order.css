@@ -1,0 +1,88 @@
+* {
+    margin:0;
+    padding:0;
+}
+select {
+    width:140px;
+    height:17px;
+}
+h1 {
+    font-size:27px;
+    text-align:center;
+    font-family:sans-serif;
+}
+#wrapper {
+    background-color:#ffc0cb;
+    width:340px;
+    height:250px;
+}
+#left {
+    background-color:#ffc0cb;
+    height:175px;
+    width:165px;
+}
+#right {
+    margin-top:-177px;
+    background-color:#ffc0cb;
+    float:right;
+    width:160px;
+    height:205px;
+}
+label {
+    margin:0;
+    font-size:12px;
+}
+#from {
+    margin-bottom:21px;
+}
+#departure {
+    height:18px;
+    width:150px;
+}
+#return {
+    height:18px;
+    width:150px;
+}
+#number {
+    width:42px;
+    height:15px;
+}
+#firstTextNum {
+    width:42px;
+    height:15px;
+}
+#secondTextNum {
+    width:42px;
+    height:15px;
+}
+#labelFirst {
+    margin-left:28px;
+}
+#labelSecond {
+    margin-left:23px;
+}
+/* right div */
+#start {
+    width:70px;
+    height:18px;
+}
+#end {
+    width:70px;
+    height:18px;
+}
+#second-start {
+    width:70px;
+    height:18px;
+}
+#second-end {
+    width:70px;
+    height:18px;
+}
+input {
+    margin:0;
+    display:inline-block;
+}
+#search {
+    width:143px;
+    height:25px;
+}

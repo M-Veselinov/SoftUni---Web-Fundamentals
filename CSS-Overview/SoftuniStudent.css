@@ -1,0 +1,78 @@
+div {
+    border:2px solid black;
+}
+#head {
+    width:295px;
+    height:295px;
+    border-radius:150px;
+    position:absolute;
+    background-color:#ffff00;
+}
+#left-eye {
+    background-color:white;
+    position:absolute;
+    margin-left:55px;
+    margin-top:55px;
+    width:60px;
+    height:60px;
+    border-radius:35px;
+}
+    #inner-left-eye {
+        width:18px;
+        height:18px;
+        border-radius:10px;
+        background:black;
+        margin-top:30px;
+        margin-left:30px;
+    }
+#right-eye {
+    background-color:white;
+    position:absolute;
+    margin-left:180px;
+    margin-top:55px;
+    width:60px;
+    height:60px;
+    border-radius:35px;
+}
+    #inner-right-eye {
+        width:18px;
+        height:18px;
+        border-radius:10px;
+        background:black;
+    }
+#nose {
+    position:absolute;
+    margin-left:126px;
+    margin-top:120px;
+    width:45px;
+    height:45px;
+    border-radius:25px;
+    background:red;
+}
+#mouth {
+    background-color:white;
+    width:150px;
+    height:60px;
+    border-radius:30px;
+    position:absolute;
+    margin-top:190px;
+    margin-left:75px;
+}
+    #left-teeth {
+        background-color:white;
+        margin-top:-2px;
+        margin-left:43px;
+        display:inline-block;
+        width:30px;
+        height:30px;
+        border-radius:5px;
+    }
+    #right-teeth {
+        background-color:white;
+        margin-top:-2px;
+        margin-left:-5px;
+        display:inline-block;
+        width:30px;
+        height:30px;
+        border-radius:5px;
+    }

@@ -1,0 +1,92 @@
+* {
+    margin:0;
+    padding:0;
+}
+#wrapper {
+    background-color:#00923e;
+    width:62%;
+    height:300px;
+    padding:10px;
+}
+ table {
+     border:1px solid black;
+     height:300px;
+     border-collapse: collapse;
+     border-radius:10px;
+     overflow:hidden;
+ }
+#first td {
+    height:30px;
+    border:1px solid black;
+    background-color:#f8c711;
+}
+    #first td:first-of-type {
+        text-align:right;
+        padding-left:30px;
+    }
+    #first td:last-of-type {
+        text-align:center;
+    }
+td {
+    border:1px solid black;
+    border-collapse: collapse;
+    padding:5px;
+    height:40px;
+}
+td:nth-child(1) {
+    text-align:right;
+}
+td:nth-child(2) {
+    text-align:center;
+}
+td:nth-child(4) {
+    text-align:center;
+}
+td:nth-child(5) {
+    text-align:right;
+}
+td div {
+    display:inline-block;
+}
+.country {
+    width:140px;
+}
+.result {
+    width:70px;
+}
+.image {
+    text-align:center;
+    width:50px;
+}
+img {
+    vertical-align:middle;
+}
+.odd {
+    background-color:#ffffff;
+}
+.even {
+    background-color:#c8c8c8;
+}
+.select-red {
+    color:red;
+    background-color:#dcdcdc;
+    border:1px solid #b5b5b5;
+    width:21px;
+    height:21px;
+}
+.select-green {
+    color:green;
+    background-color:white;
+    border:1px solid #d5d5d5;
+    width:21px;
+    height:21px;
+}
+    .arrow-down {
+        vertical-align:middle;
+        width: 0;
+        height: 0;
+        border-left: 3px solid transparent;
+        border-right: 3px solid transparent;
+
+        border-top: 3px solid black;
+    }

@@ -1,0 +1,105 @@
+* {
+    margin:0;
+    padding:0;
+}
+h1 {
+    font-weight:bold;
+}
+#wrapper {
+    background-color:#eeeeee;
+    width:473px;
+    height:275px;
+    padding:13px;
+}
+h1 {
+    font-size:18px;
+}
+h2 {
+    font-size:18px;
+}
+p {
+    color:#999999;
+    margin:15px;
+    margin-left:0;
+}
+#register {
+    margin-right:0;
+    margin-left:15px;
+    background-color:#eeeeee;
+    position:absolute;
+}
+.register {
+    width:205px;
+    height:22px;
+    margin:10px;
+    margin-left:0;
+    display:block;
+}
+#registerBtn {
+    color:#0b3055;
+    background-color:#eeeeee;
+    border:2px solid #0b3055;
+    float:right;
+    margin-right:10px;
+    width:95px;
+    height:25px;
+}
+#registerBtn:hover {
+    color:white;
+    background-color:#0b3055;
+}
+.login {
+    width:205px;
+    height:30px;
+    margin:10px;
+    display:block;
+}
+label {
+    font-weight:bold;
+    margin-left:10px;
+}
+#main {
+    color:#0b3055;
+}
+#registerLabel {
+    color:#565656;
+}
+#loginLabel {
+    color:white;
+}
+span {
+    color:#0b3055;
+}
+#login {
+    background-color:#234465;
+    float:right;
+}
+#radio {
+    margin-left:10px;
+}
+#labelRadio {
+    color:white;
+    margin-left:0;
+    font-size:12px;
+    vertical-align:super;
+}
+a {
+    font-size:11px;
+    display:block;
+    margin-left:140px;
+    color:white;
+}
+#login {
+    height:200px;
+}
+#loginBtn {
+    color:white;
+    background-color:#234465;
+    border:2px solid #c4841b;
+    margin-left:20px;
+    width:85px;
+    height:25px;
+}
+#loginBtn:hover {
+    background-color:#c4841b;
+}
